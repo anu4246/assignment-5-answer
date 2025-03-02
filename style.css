@@ -70,8 +70,8 @@ main {
 
 .top-section {
     display: flex;
-    gap:25px;
-    margin: 20px 0;
+    gap:30px;
+    margin: 15px 0;
 }
 .header-left{
     display: flex;
@@ -107,9 +107,13 @@ main {
     grid-template-columns: repeat(3,2fr);
     gap: 15px;
 }
-
+.complete-box{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
 .task-card {
-    width: 300px;
+    width: 320px;
     background: white;
     padding: 15px;
     border-radius: 16px;
@@ -118,6 +122,8 @@ main {
 
 .complete-btn {
     background: #2b50ed;
+    width: 100px;
+    height: 40px;
     color: white;
     padding: 8px 15px;
     border: none;
